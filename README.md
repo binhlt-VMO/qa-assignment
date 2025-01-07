@@ -8,7 +8,7 @@
 * In `document` folder we will have the testcase file
 * In `tests` folder we will have high level test case about API upload image and upload zip file
   `https://assessement.onrender.com/api/image`
-  
+
   `https://assessement.onrender.com/api/zip`
 
 ## Getting started
@@ -50,7 +50,7 @@ Before you begin, ensure you have met the following requirements:
 * Go to the Project root directory and run command: `npm test`
 
 ## Run Single Spec and show the report
-* Go to the Project root directory and run command: e.g:  `npx playwright test tests/api-image.spec.ts && npx playwright show-report`
+* Go to the Project root directory and run command: e.g:  `npx playwright test tests/validate_upload_api_image.spec.ts && npx playwright show-report`
 
 ## Reporter
 
