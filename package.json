@@ -1,0 +1,17 @@
+{
+  "name": "playwright-testing",
+  "version": "1.0.0",
+  "description": "---\r # QA Assessment \r ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test && npx playwright show-report"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/adm-zip": "^0.5.7",
+    "@types/node": "^22.10.5",
+    "adm-zip": "^0.5.10"
+  }
+}

@@ -1,38 +1,59 @@
-# Technical QA Assessment
-A take-home automation testing assignment for QA interview.
 
-## Your Task
-1.	Develop API automation test to validate the following user stories using Typescript.
-2.	Write some high-level test scenarios for each user story.
-3.	Register the bug(s) found during testing.
+# QA Assessment
 
-### User Stories
-* User Story 1 - 
-In order to store and use my pictures through the https://assessement.onrender.com/api/image API service:
-As an Anonymous user,
-I want to attach a picture to the Service
-and I want to have a permanent link to this picture,
-Otherwise, I want to be rejected and informed if the file is not a picture.
+## Summary of this framework
+* This is API Automation Testing using Playwright framework and Typescript one of the powerful testing framework
 
-* User Story 2 - 
-In order to save my time from uploading my pictures multiple times via https://assessement.onrender.com/api/zip API service:
-As an Anonymous user,
-I want to attach a zip file containing multiple images
-and I want each of these uploaded images to have a permanent link.
+## Summary of this project
+* In `document` folder we will have the testcase file
+* In `tests` folder we will have high level test case about API upload image and upload zip file
+  `https://assessement.onrender.com/api/image`
+  `ttps://assessement.onrender.com/api/zip`
 
-## Getting Started
-Please review the information in this section before you get started with your development. 
+## Getting started
 
-* Create a personal fork of the project on Github.
-* Clone the fork on your local machine.
-* Implement your solution and push the test automation codes and test documents to forked repository.
-* When you are ready, submit the forked repo for review by providing the link to the repo to our recruitment team.
+### Prerequisites
+Before you begin, ensure you have met the following requirements:
 
-### Tools
-You are free to choose the IDE (Integrated Development Environment) tool you are most comfortable with.
+- **Node.js**: Your system should have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
-## Time Estimates
-This assignment should take about 2 to 4 hours of your time depending on your level of experiences. 
+  ```sh
+  # To check if Node.js is installed, run this command:
+   node -v
 
-## Need Help
-Create a github issue. We'll get back to you.
+  # Example output: v16.3.0
+  ```
+
+- **TypeScript**: This project is written in TypeScript, so you need to have TypeScript installed globally.
+
+    ```sh
+    # Install TypeScript globally using npm
+      npm install -g typescript
+   
+   # Check TypeScript version
+      tsc -v
+   
+   # Example output: Version 4.5.2
+    ``` 
+- **Visual Studio Code**: We recommend using Visual Studio Code as the development environment for this project. You can download it from code.visualstudio.com.
+
+- **Visual Studio Code TypeScript Extension**: Playwright Test for VSCode
+
+## How to set up
+
+- Clone project
+- install environment: `npm install`
+
+
+## Run Test
+* Go to the Project root directory and run command: `npm test`
+
+## Run Single Spec and show the report
+* Go to the Project root directory and run command: e.g:  `npx playwright test tests/api-image.spec.ts && npx playwright show-report`
+
+## Reporter
+
+- After run local any tests, show report by run cmd:
+
+  `npx playwright show-report`
+
