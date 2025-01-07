@@ -8,7 +8,8 @@
 * In `document` folder we will have the testcase file
 * In `tests` folder we will have high level test case about API upload image and upload zip file
   `https://assessement.onrender.com/api/image`
-  `ttps://assessement.onrender.com/api/zip`
+  
+  `https://assessement.onrender.com/api/zip`
 
 ## Getting started
 
