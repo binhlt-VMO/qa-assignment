@@ -3,7 +3,7 @@ import { Utilities } from "../src/util/Utilities";
 import { test } from "../src/fixtures/PageSetup";
 
 let response: any;
-test.describe("User Story 1| Upload image function", () => {
+test.describe("User Story 1| Store and use my pictures", () => {
   const imageList = new Utilities().getFilesFromFolder(Path.IMAGES, []);
   const invalidImageList = new Utilities().getFilesFromFolder(Path.OTHERS, []);
 
